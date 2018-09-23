@@ -1,9 +1,12 @@
 /*公众号初始化样式*/
 @charset "utf-8";
 /*reset start*/
-html, body, h1, h2, h3, h4, h5, h6, div, dl, dt, dd, ul, ol, li, p, blockquote, pre, hr, figure, table, caption, th, td, form, fieldset, legend, input, button, textarea, menu {
+html, body, h1, h2, h3, h4, h5, h6,footer,header, div, dl, dt, dd, ul, ol, li, p, blockquote, pre, hr, figure, table, caption, th, td, form, fieldset, legend, input, button, textarea, menu {
     margin: 0;
     padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 html, body, form, fieldset, p, div, h1, h2, h3, h4, h5, h6 {
@@ -16,7 +19,6 @@ html {
 
 body {
     font-family: "微软雅黑", arial, sans-serif;
-    background: #e6e6e6;
 }
 
 header, footer, section, article, aside, nav, hgroup, address, figure, figcaption, menu, details {
@@ -80,7 +82,7 @@ a, button {
     cursor: pointer;
 }
 
-del, ins, u, s, a, a:hover {
+del, ins, u, s, a, a:hover ,a:visited,a:active{
     text-decoration: none;
 }
 
@@ -117,3 +119,23 @@ input, textarea, select {
     text-overflow: ellipsis;
     white-space: nowrap;
 }
+a ,span{
+    display:block;
+}
+a:link{
+    color: #222;
+    text-decoration:none;
+}
+
+a:visited{
+    color: #222;
+}
+
+a:active{
+    color: #222;
+}
+
+a:hover{
+    color: #222;
+}
+
